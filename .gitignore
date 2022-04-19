@@ -31,7 +31,7 @@ fp-info-cache
 /output/*
 
 # Backup files
-template-backups/
+/*-backups/
 
 # Cubemx config files
 /stm32cubemx/*
