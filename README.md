@@ -6,5 +6,5 @@ The most important parameters of the datasheets must be highlighted and for data
 
 ## Naming scheme
 
-use the following naming scheme for all projects: teamname-carname-projectname (all lowercase)
-example: hw-fenice-steering-wheel
+use the following naming scheme for all projects: `teamname-carname-projectname` (all lowercase)
+example: `hw-fenice-steering-wheel`
