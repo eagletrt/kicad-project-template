@@ -9,14 +9,13 @@
 *.kicad_prl
 *.sch-bak
 *~
-*.kicad_pcb.lck
-*.kicad_sch.lck
+*.lck
 _autosave-*
 \#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
+*fp-info-cache
 *-cache.lib
 
 # Netlist files (exported from Eeschema)
@@ -26,12 +25,9 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
 # PCB output files
-/output/*
+/output/
+/bom/
 
 # Backup files
 /*-backups/
@@ -43,3 +39,17 @@ fp-info-cache
 # Python files
 .ipynb_checkpoints/
 
+# MAC
+**/.DS_Store
+
+#LTspice simulation result
+*.raw
+
+#kicad history
+.history/
+
+
+#STM32CubeMX
+
+/stm32cubemx/*
+!/stm32cubemx/*.ioc
